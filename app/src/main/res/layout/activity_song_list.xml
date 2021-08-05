@@ -10,25 +10,27 @@
     android:layout_marginTop="10dp"
     android:orientation="vertical">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btnShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0"
+        android:text="@string/showAll" />
 
-        <Button
-            android:id="@+id/btnShow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/showAll"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="5dp"/>
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
 
     <ListView
         android:id="@+id/lv"
 
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
 </LinearLayout>

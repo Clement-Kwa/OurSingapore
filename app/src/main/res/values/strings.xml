@@ -7,6 +7,7 @@
     <string name="hintTitle">Enter name</string>
     <string name="hintSingers">Enter description</string>
     <string name="hintYear">Enter square km</string>
+    <string name="add">Add a new Island</string>
 
     <string name="Stars">Stars</string>
     <string name="insert">Insert</string>

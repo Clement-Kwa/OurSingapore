@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         etSingers = findViewById(R.id.etSingers);
         etYear = findViewById(R.id.etYear);
 
-        btnInsert = findViewById(R.id.btnInsert);
+
         btnShow = findViewById(R.id.btnShow);
         ratingBar = findViewById(R.id.ratingBar);
 

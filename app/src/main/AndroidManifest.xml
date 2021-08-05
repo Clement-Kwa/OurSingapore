@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OurSingapore">
         <activity android:name=".EditSong"></activity>
-        <activity android:name=".SongList" />
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".SongList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
